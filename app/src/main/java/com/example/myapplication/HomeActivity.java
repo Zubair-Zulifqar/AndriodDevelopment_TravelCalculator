@@ -29,12 +29,12 @@ style=(RadioGroup) findViewById(R.id.radioGroup);
 submit.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
-        String result="Fair to "+  country.getText() +"for  "+duration.getText()+"  by  ";
+        String result="Fair to "+  country.getText() +"  for  "+duration.getText()+" days   by  ";
         int id=style.getCheckedRadioButtonId();
         RadioButton radioButton=findViewById(id);
         result+=radioButton.getText()+"  is ";
         int amount=country.getText().length()*duration.getText().length()*radioButton.getText().length();
-        result+=amount;
+        result+=amount+"  rupees";
 
 
 

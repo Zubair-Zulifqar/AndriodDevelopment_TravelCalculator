@@ -10,24 +10,23 @@
         android:id="@+id/textView4"
         android:layout_width="315dp"
         android:layout_height="167dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="32dp"
         android:text="The fair of your trip is :"
 
         android:textAlignment="center"
         android:textSize="120px"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textview123"
-        android:layout_width="178dp"
-        android:layout_height="87dp"
-        android:textAlignment="center"
-        android:textSize="120px"
-
+        android:layout_width="403dp"
+        android:layout_height="505dp"
         android:text="dummy"
+        android:textAlignment="center"
+
+        android:textSize="120px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

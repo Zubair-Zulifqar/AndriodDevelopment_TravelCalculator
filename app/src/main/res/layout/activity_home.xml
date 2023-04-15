@@ -44,7 +44,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.155" />
+        app:layout_constraintVertical_bias="0.13" />
 
     <EditText
         android:id="@+id/days"
@@ -54,14 +54,14 @@
         android:layout_marginBottom="128dp"
         android:ems="10"
         android:inputType="number"
-        android:text="Enter Days"
+        android:text="6"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintHorizontal_bias="0.864"
         app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toBottomOf="@+id/destination"
-        app:layout_constraintVertical_bias="0.055" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/travelStyle"
@@ -79,8 +79,8 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="256dp"
-        android:layout_height="194dp"
+        android:layout_width="202dp"
+        android:layout_height="186dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.636"
@@ -93,6 +93,7 @@
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="Plane" />
 
         <RadioButton
@@ -116,7 +117,7 @@
         android:layout_weight="1"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Enter any country"
+        android:text="China"
         android:textAlignment="center"
         android:textSize="50px"
         app:layout_constraintBottom_toBottomOf="parent"
